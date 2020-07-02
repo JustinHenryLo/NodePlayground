@@ -1,0 +1,20 @@
+INIT:
+npm init
+
+INSTALL:
+(dependency) npm install uuid
+
+INSTALL FOR DEV:
+(dev dependency) npm install -D nodemon
+
+RUN FILE:
+node index.js 
+node index
+
+IMPORT:
+const test = require("./test");
+
+IMPORT NPM:
+const path = require("path");
+(more in https://nodejs.org/dist/latest-v12.x/docs/api/)
+
